@@ -1,13 +1,9 @@
-# Core dependencies
-streamlit==1.30.0
-transformers==4.36.1
-torch==2.1.0
-torchvision==0.16.0
-torchaudio==2.1.0
-Pillow==10.0.1
-requests==2.31.0
-
-# Hugging Face dependencies (for CLIP models)
-huggingface-hub==0.28.1
-
-# TensorFlow (only if
+streamlit
+transformers==4.29.2
+torch
+torchvision
+torchaudio
+Pillow
+requests
+huggingface-hub
+tensorflow-cpu
