@@ -1,5 +1,6 @@
 from PIL import Image
-from transformers import CLIPProcessor, CLIPModel
+from transformers.image_processing_clip import CLIPProcessor  # ✅ Newer versions
+from transformers import CLIPModel
 import torch
 
 # Load OpenAI CLIP model
